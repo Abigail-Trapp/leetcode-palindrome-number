@@ -7,4 +7,14 @@ var isPalindrome = function(x) {
     } else return false
   };
   
-  console.log(isPalindrome(121))
+  let div = document.querySelector("div")
+  let p = document.createElement("p")
+  let button = document.querySelector("button").addEventListener("click", (e)=>{
+      e.preventDefault()
+      let input = document.getElementById("input").value
+    p.innerText = `${isPalindrome(input)}`
+    div.append(p)
+  })
+
+
+  
