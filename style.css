@@ -1,6 +1,6 @@
 #form{
     min-width: 30px;
-    background: #e6e6e6;
+    background: rgb(6, 6, 90);
     box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
     border-radius: 30px;
     padding: 20px 20px 20px 20px; 
@@ -8,4 +8,6 @@
 body{
     display: flex;
     justify-content: center;
+    background: rgb(6, 6, 216);
+    color: rgb(214, 207, 207);
 }
